@@ -1,0 +1,10 @@
+name: Build & Publish
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "workflow file pushed successfully via PAT"
