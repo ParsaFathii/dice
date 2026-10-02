@@ -14,6 +14,22 @@
 
 ---
 
+## 📲 Try it · امتحانش کنید
+
+| 🌐 **Live demo** · دموی آنلاین | **[ParsaFathii.github.io/dice](https://ParsaFathii.github.io/dice/)** — runs right in the browser, no install needed · مستقیم در مرورگر اجرا می‌شود، بدون نصب |
+| 🤖 **Android APK** · نسخهٔ اندروید | **[Latest release](https://github.com/ParsaFathii/dice/releases/latest)** — download `app-release.apk` · فایل `app-release.apk` را دانلود کنید |
+
+---
+
+## 📸 Screenshots · اسکرین‌شات‌ها
+
+<p align="center">
+  <img src="docs/images/home.png" width="240" alt="dice — Two dice, fresh roll">
+  <img src="docs/images/rolled.png" width="240" alt="dice — Tap a die — it re-rolls independently">
+</p>
+
+---
+
 ## 🇬🇧 English
 
 A playful two-dice roller from my early days of learning Flutter. Tapping either die re-rolls it independently — a small app, but one that taught me the core mental model of Flutter: **the UI is a function of state**. The dice number is state, `setState` mutates it, and the framework rebuilds the tree.
