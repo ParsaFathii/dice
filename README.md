@@ -35,6 +35,7 @@
 A playful two-dice roller from my early days of learning Flutter. Tapping either die re-rolls it independently — a small app, but one that taught me the core mental model of Flutter: **the UI is a function of state**. The dice number is state, `setState` mutates it, and the framework rebuilds the tree.
 
 This repo has since been cleaned up: state updates were extracted into small, intention-revealing methods, `print` debugging was removed, and the widget tree is now fully `const`-friendly.
+🏆 This PR was made to earn my Pull Shark badge!
 
 ### ✨ What's inside
 
